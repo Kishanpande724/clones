@@ -1,0 +1,209 @@
+/* 350-430px */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.main{
+    border: 1px none;
+    height: 800px;
+    background-color: rgb(33, 32, 32);
+}
+
+
+
+
+.navBar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    height: 100px;
+    align-items: center;
+    background-color: #0c0c0c;
+}
+
+.right-nav{
+   position: absolute;
+   left: 10px;
+   height: auto;
+   width: 95px;
+   display: flex;
+   justify-content: center;
+}
+
+.logo{
+    height: 28px;
+}
+
+
+
+.left-nav{
+    position: absolute;
+    right: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    width: 220px;
+}
+
+.lang{
+    width: 105px;
+    margin-right: 10px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+.fa-language{
+    position: absolute;
+    left: 15px;
+    top: 8px;
+}
+
+.lang-select{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-left: 25px;
+}
+
+
+
+
+
+.sign-up{
+    width: 105px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 25px;
+    color: black;
+}
+
+.nav-main{
+    display: flex;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    background-color: #0c0c0c;
+    color: white;
+    border-radius: 0px;
+}
+
+.item-nav-main{
+    display: flex;
+    text-decoration: none;
+    gap: 28px;
+    margin: auto;
+}
+
+
+.item-nav-main a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+
+
+/*main box */
+
+.box-main{
+    height: 500px;
+}
+
+.box-subdiv{
+    height: 400px;
+}
+
+.box-subdiv .heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+
+.box-subdiv .heading2{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.box-subdiv p{
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+
+
+.box-subdiv .subdiv-btn{
+    margin: auto;
+    height: 90px;
+    width: 94%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    justify-self: center;
+}
+
+.box-subdiv .subdiv-btn .email{
+    height: 40px;
+        width: 100%;
+        border: 1px solid white;
+        font-size: 20px;
+        font-weight: 100;
+        background-color: black;
+        border-radius: 50px;
+        color: white;
+        text-align: center;
+        padding-left: 0px;
+}
+
+.box-subdiv .subdiv-btn .start-btn{
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-size: 19px;
+    background-color: red;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    margin-top: -1px;
+    font-family: sans-serif;
+}
+
+
+
+/*trend*/
+
+.trend-main{
+    overflow-x: scroll;
+    margin-top: 117px;
+}
+
+.carousel-container{
+    max-width: 360px;
+}
+
+.carousel-item{
+    max-width: 155px;
+    height: 280px;
+}
